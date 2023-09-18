@@ -41,13 +41,5 @@ function[y]=Sphere2()
     
     
     
-        end
-        mywriter= VideoWriter('Spiral49','MPEG-4');
-    mywriter.FrameRate=20;
-
-    open(mywriter);
-    writeVideo(mywriter, movieVector);
-    close(mywriter);
+    end
 end
-
-
